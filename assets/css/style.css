@@ -1,8 +1,25 @@
 /*google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /*remove default margin and padding*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CSS Variables*/
+
+:root{
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Macondo', cursive;
+    --primary-color: #416a8e;
+}
+
+/*Global Styles*/
+
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +27,9 @@
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: var(--primary-font);
 }
 
-h1{
-    font-family: 'Macondo', sans-serif;
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--secondary-font);
 }
