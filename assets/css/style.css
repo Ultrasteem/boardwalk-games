@@ -16,6 +16,9 @@
     --primary-font: 'Inter', sans-serif;
     --secondary-font: 'Macondo', cursive;
     --primary-color: #416a8e;
+    --secondary-color: #aa9581;
+    --highlight-color:#416a8e;
+    --light-highlight-color:#7a9fc2;
 }
 
 /*Global Styles*/
@@ -32,4 +35,9 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color{
+    color: var(--highlight-color)
 }
